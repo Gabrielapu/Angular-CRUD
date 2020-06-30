@@ -11,7 +11,6 @@ import { AddComponent } from './components/add/add.component';
 import { EditComponent } from './components/edit/edit.component';
 import { DeleteComponent } from './components/delete/delete.component';
 import { FilterComponent } from './components/filter/filter.component';
-import { MapeoComponent } from './components/mapeo/mapeo.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +19,6 @@ import { MapeoComponent } from './components/mapeo/mapeo.component';
     EditComponent,
     DeleteComponent,
     FilterComponent,
-    MapeoComponent
   ],
   imports: [
     BrowserModule,

@@ -51,18 +51,4 @@ export class AppComponent implements OnInit{
     const edad2 = formEdad.edad2;
     this.users = this.users.filter(x => x.age >= edad1 && x.age <= edad2);
   }
-
-  listar(formBuscar: any) {
-    let valor = formBuscar.buscado;
-    this.mapeo = this.users.map(x => x[valor])
-    /* if ( valor = 'nombre') {
-      this.mapeo = this.users.map(x => x.name)
-    } 
-    if ( valor = 'apellido') {
-      this.mapeo = this.users.map(x => x.lastname)
-    }  */
-    console.log(valor);
-    
-  }
- 
 }
