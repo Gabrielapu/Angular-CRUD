@@ -1,0 +1,16 @@
+
+<form [formGroup]="formEdad" (submit)="onSubmit()">
+    <div class="container mt-2 mb-2">
+        <div class="row">
+            <div class="form-group">
+            <label for="">Ingrese el rango de edad</label>
+                <div class="input-group">  
+                    <input placeholder="20" type="text" class="form-control" formControlName="edad1">
+                    <p class="mx-3" style="font-size: 20px;"> a </p>
+                    <input placeholder="40" type="text" class="form-control" formControlName="edad2">
+                    <Button type="submit" class="btn btn-success mx-2"> Filtrar </Button> 
+                </div>  
+            </div>
+        </div>
+    </div>
+</form>
